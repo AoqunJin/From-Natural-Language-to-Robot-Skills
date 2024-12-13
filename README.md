@@ -1,48 +1,39 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+# Learning Novel Skills from Language-Generated Demonstrations
 
+**Description**  
+This project focuses on building a skill learning framework that enables robots to acquire novel skills from natural language instructions. 
+The proposed pipeline leverages vision-language models to generate demonstration videos of novel skills.
 
-Example project pages built using this template are:
-- https://vision.huji.ac.il/spectral_detuning/
-- https://vision.huji.ac.il/podd/
-- https://dreamix-video-editing.github.io
-- https://vision.huji.ac.il/conffusion/
-- https://vision.huji.ac.il/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad/
-- https://vision.huji.ac.il/deepsim/
+![NSAGD](static/images/img1.png)
 
+## Features  
+- **Modular Design**: Each module is independently structured, allowing for standalone training and debugging.  
 
+- **Interchangeable Models**: Different generative models can be seamlessly swapped within each module, enabling flexible experimentation and performance optimization.  
 
-## Start using the template
-To start using the template click on `Use this Template`.
+## Source Code  
+Source code is coming soon! 🚀  
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+## Roadmap  
+1. [ ] Release source code & data.
+2. [ ] Tested on different models & environments.
 
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+## Citation  
+If you think this project is helpful, please feel free to leave a star⭐️⭐️⭐️ and cite our paper:
 
-## Components
-- Teaser video
-- Images Carousel
-- Youtube embedding
-- Video Carousel
-- PDF Poster
-- Bibtex citation
+```bibtex
+@misc{jin2024learningnovelskillslanguagegenerated,
+      title={Learning Novel Skills from Language-Generated Demonstrations}, 
+      author={Ao-Qun Jin and Tian-Yu Xiang and Xiao-Hu Zhou and Mei-Jiang Gui and Xiao-Liang Xie and Shi-Qi Liu and Shuang-Yi Wang and Yue Cao and Sheng-Bin Duan and Fu-Chao Xie and Zeng-Guang Hou},
+      year={2024},
+      eprint={2412.09286},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2412.09286}, 
+}
+```
 
-## Tips:
-- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
-- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
-(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
-- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
-- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
-- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
-- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
-- This project page can also be made into a github pages website.
-- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
-
-## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
-
-## Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+## Acknowledgments  
+- **The State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences.**
+- Special thanks to the help of Tian-Yu Xiang and Fu-Chao Xie, and the support of supervisor Xiao-Hu Zhou.
+- This repository borrows heavily from [FollowYourPose](https://github.com/mayuelala/FollowYourPose). thanks the authors for sharing their code and models.
